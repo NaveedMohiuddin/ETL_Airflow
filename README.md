@@ -85,8 +85,12 @@ This project showcases proficiency in:
 Screenshots
 ===========
 
-- `Airflow connections.png`: Airflow connections configuration.
-- `Airflow Dag graph view.png`: DAG graph view in Airflow UI.
-- `Dag running.png`: Successful DAG run with all tasks completed.
-- `Database Query results.png`: Database query results showing inserted weather data.
-- `Multiple sucessful Dag runs.png`: Multiple successful DAG runs.
+![Airflow connections](Airflow%20connections.png "Airflow connections configuration")
+
+![Airflow Dag graph view](Airflow%20Dag%20graph%20view.png "DAG graph view in Airflow UI")
+
+![Dag running](Dag%20running.png "Successful DAG run with all tasks completed")
+
+![Database Query results](Database%20Query%20results.png "Database query results showing inserted weather data")
+
+![Multiple sucessful Dag runs](Multiple%20sucessful%20Dag%20runs.png "Multiple successful DAG runs")
