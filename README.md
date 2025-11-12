@@ -84,13 +84,17 @@ This project showcases proficiency in:
 
 Screenshots
 ===========
-
+**Airflow connections configuration**
 ![Airflow connections](Airflow%20connections.png "Airflow connections configuration")
 
+**DAG graph view in Airflow UI**
 ![Airflow Dag graph view](Airflow%20Dag%20graph%20view.png "DAG graph view in Airflow UI")
 
+**Successful DAG run with all tasks completed**
 ![Dag running](Dag%20running.png "Successful DAG run with all tasks completed")
 
+**Database query results showing inserted weather data**
 ![Database Query results](Database%20Query%20results.png "Database query results showing inserted weather data")
 
+**Multiple successful DAG runs**
 ![Multiple sucessful Dag runs](Multiple%20sucessful%20Dag%20runs.png "Multiple successful DAG runs")
