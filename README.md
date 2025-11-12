@@ -1,7 +1,7 @@
 Overview
 ========
 
-Welcome to the ETL Weather-Airflow Project! This project demonstrates a complete ETL (Extract, Transform, Load) pipeline using Apache Airflow to fetch, process, and store weather data from the Open-Meteo API into a PostgreSQL database. The project showcases skills in data engineering, ETL pipeline design, and Airflow orchestration.
+The ETL Weather-Airflow Project! This project demonstrates a complete ETL (Extract, Transform, Load) pipeline using Apache Airflow to fetch, process, and store weather data from the Open-Meteo API into a PostgreSQL database. The project showcases skills in data engineering, ETL pipeline design, and Airflow orchestration.
 
 Project Contents
 ================
@@ -17,7 +17,11 @@ Your Astro project contains the following files and folders:
 - requirements.txt: Install Python packages needed for your project by adding them to this file. Includes Apache Airflow providers for HTTP and PostgreSQL.
 - plugins: Add custom or community plugins for your project to this file. It is empty by default.
 - airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
-- img 1.png to img 5.png: Screenshots demonstrating the successful execution of the ETL pipeline, including DAG runs, task logs, and database insertions.
+- Airflow connections.png: Screenshot of Airflow connections configuration.
+- Airflow Dag graph view.png: Screenshot of the DAG graph view in Airflow UI.
+- Dag running.png: Screenshot of a successful DAG run.
+- Database Query results.png: Screenshot of database query results showing inserted weather data.
+- Multiple sucessful Dag runs.png: Screenshot of multiple successful DAG runs.
 
 ETL Pipeline Overview
 =====================
@@ -81,21 +85,8 @@ This project showcases proficiency in:
 Screenshots
 ===========
 
-- `img 1.png`: Airflow UI showing the DAG graph view.
-- `img 2.png`: Successful DAG run with all tasks completed.
-- `img 3.png`: Task logs demonstrating data extraction.
-- `img 4.png`: Database query results showing inserted weather data.
-- `img 5.png`: Airflow connections configuration.
-
-Deploy Your Project to Astronomer
-=================================
-
-If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
-
-Contact
-=======
-
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
-=======
-
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
+- `Airflow connections.png`: Airflow connections configuration.
+- `Airflow Dag graph view.png`: DAG graph view in Airflow UI.
+- `Dag running.png`: Successful DAG run with all tasks completed.
+- `Database Query results.png`: Database query results showing inserted weather data.
+- `Multiple sucessful Dag runs.png`: Multiple successful DAG runs.
